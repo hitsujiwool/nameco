@@ -26,7 +26,7 @@
       })
       .through(function(err, data, next) {
         // fooからbarへ遷移するときのコールバック（2つめ）
-        next(new Error('error')); // エラーオブジェクトの渡せる
+        next(new Error('error')); // エラーオブジェクトも渡せる
       })
       .connect(baz) // fooとbazを連結するが、後ろにthrough()がないので何もしない
       .then()
