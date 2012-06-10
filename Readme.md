@@ -51,8 +51,8 @@
   
 ### 状態遷移
 
-    nameco.currentRouter.move(data).via('foo').to('bar'); // fooを経由してbarへ遷移する
-    nameco.currentRouter.skip(data).to('bar'); // コールバックをスキップしてbarへ遷移する
+    nameco.currentNode.move(data).via('foo').to('bar'); // fooを経由してbarへ遷移する
+    nameco.currentNode.skip(data).to('bar'); // コールバックをスキップしてbarへ遷移する
     
 ## 「なめたけ」との関わり
 
