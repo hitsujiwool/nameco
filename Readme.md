@@ -9,6 +9,8 @@
 
 
 ### 構造定義
+
+    require('nameco');
     
     var manager = nameco(),
         foo = manager.node('foo'),
