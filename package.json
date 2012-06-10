@@ -1,0 +1,10 @@
+{
+    "name": "nameco"
+  , "version": "0.0.1"
+  , "description": ""
+  , "keywords": []
+  , "author": "hitsujiwool <utatanenohibi@gmail.com>"
+  , "dependencies": {}
+  , "main": "index"
+  , "engines": { "node": "0.6.x" }
+}
