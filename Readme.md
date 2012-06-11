@@ -10,13 +10,11 @@
 
 ### 構造定義
 
-    require('nameco');
-    
-    var manager = nameco(),
-        foo = manager.node('foo'),
-        bar = manager.node('bar'),
-        baz = manager.node('baz'),
-        qux = manager.node('qux');
+    var nameco = require('nameco'),    
+        foo = nameco.node('foo'),
+        bar = nameco.node('bar'),
+        baz = nameco.node('baz'),
+        qux = nameco.node('qux');
     
     foo
       .connect(bar) // fooとbarを連結する
